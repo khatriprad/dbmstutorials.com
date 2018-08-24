@@ -1,0 +1,14 @@
+<!-- Place below properties inside configuration tag -->
+
+
+<!-- Specify the port for hadoop hdfs -->
+<property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://localhost:9000</value>
+</property>
+
+<property>
+    <name>dfs.replication</name>
+    <value>1</value>
+</property>
+
